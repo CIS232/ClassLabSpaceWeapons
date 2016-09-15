@@ -1,7 +1,7 @@
 package edu.cis232.weapon;
 
 public class LaserCannon extends Weapon {
-	int power;
+	private int power;
 	
 	public LaserCannon(int power){
 		super(10);

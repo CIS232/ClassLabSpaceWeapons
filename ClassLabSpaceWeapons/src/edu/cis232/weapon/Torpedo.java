@@ -1,9 +1,9 @@
 package edu.cis232.weapon;
 
 public class Torpedo extends Weapon{
-	int ammoCount;
-	int range;
-	int explosionPower;
+	private int ammoCount;
+	private int range;
+	private int explosionPower;
 	
 	public Torpedo(int ammoCount, int range, int explosionPower){
 		super(5 * ammoCount);
